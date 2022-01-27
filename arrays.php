@@ -29,18 +29,18 @@ $arrayFabrAvion=array(
 
 
 $arrayDViaje=array(
-    array("Vuelo" => "Vueling-AE12", "Duración viaje" => "120 minutos"),
-    array("Vuelo" => "Volotea-EA21", "Duración viaje" => "100 minutos"),
-    array("Vuelo" => "Iberia-WE44", "Duración viaje" => "340 minutos"),
-    array("Vuelo" => "Ryanair-EW44", "Duración viaje" => "45 minutos"),
-    array("Vuelo" => "Vueling-ZK87", "Duración viaje" => "600 minutos"),
-    array("Vuelo" => "Volotea-UA21", "Duración viaje" => "65 minutos"),
-    array("Vuelo" => "Iberia-WH44", "Duración viaje" => "90 minutos"),
-    array("Vuelo" => "Ryanair-EL00", "Duración viaje" => "50 minutos"),
-    array("Vuelo" => "Vueling-AE12", "Duración viaje" => "115 minutos"),
-    array("Vuelo" => "Volotea-EA21", "Duración viaje" => "100 minutos"),
-    array("Vuelo" => "Iberia-WE44", "Duración viaje" => "85 minutos"),
-    array("Vuelo" => "Ryanair-EW44", "Duración viaje" => "360 minutos"),
+    array("Vuelo" => "Vueling-AE12", "Duración viaje" => "120"),
+    array("Vuelo" => "Volotea-EA21", "Duración viaje" => "100"),
+    array("Vuelo" => "Iberia-WE44", "Duración viaje" => "340"),
+    array("Vuelo" => "Ryanair-EW44", "Duración viaje" => "45"),
+    array("Vuelo" => "Vueling-ZK87", "Duración viaje" => "600"),
+    array("Vuelo" => "Volotea-UA21", "Duración viaje" => "65"),
+    array("Vuelo" => "Iberia-WH44", "Duración viaje" => "90"),
+    array("Vuelo" => "Ryanair-EL00", "Duración viaje" => "50"),
+    array("Vuelo" => "Vueling-AE12", "Duración viaje" => "115"),
+    array("Vuelo" => "Volotea-EA21", "Duración viaje" => "100"),
+    array("Vuelo" => "Iberia-WE44", "Duración viaje" => "85"),
+    array("Vuelo" => "Ryanair-EW44", "Duración viaje" => "360"),
 );
 
 
