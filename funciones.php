@@ -4,6 +4,7 @@ include 'arrays.php';
 
 
 #VUELO 
+
 #FUNCION COMPAÑÍA
 function compañia($compañia, $selector){
     foreach ($compañia as $compa) {
@@ -82,16 +83,54 @@ function mintot($arrayDViaje,$selector){
 
 
 
+#ESTADÍSTICAS DEL AVIÓN
+
+#FUNCIÓN DESTINOS AVIÓN
+function dest($arrayDestino,$selector){
+    echo "Los destinos son: ";
+    foreach ($arrayDestino as $destinos) {
+           $destino=$destinos["Destino"];
+           $vuelo=$destinos["Vuelo"];
+           if ($vuelo==$selector) {
+              echo $destino.", ";
+            }
+    }
+    echo "<br>";
+ }
 
 
+#FUNCIÓN MEDIA DE HORAS
+function mhoras ($arrayDViaje, $selector){
+    $n=0;
+    $contador=0;
+    foreach ($arrayDViaje as $duracion) {
+        $vuelo=$duracion['Vuelo'];
+        $duracion1=$duracion['Duración viaje'];
+
+        if ($vuelo==$selector){
+        $n=$n+$duracion1;
+        $contador++;
+        }
+    }
+$n=$n/$contador;
+$n=$n/60;
+echo "La media de horas es: " .$n/$contador. "<br>";
+}
 
 
-
-
-
-
-
-
+#FUNCIÓN PASAJEROS TOTALES
+function pastot($arrayNpasajeros,$selector){
+    
+    $n=0;
+    foreach ($arrayNpasajeros as $ptotal) {
+        $total=$ptotal["Número de pasajeros"];
+        $vuelo=$ptotal["Vuelo"];
+        if ($vuelo==$selector) {
+            $n=$n+$total;
+        }
+    }
+    echo "Número de Pasajeros totales: ". $n."<br>";
+}
 
 
 
